@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "author": "erdemuysal",
   "description": "Basic cmake project with gtest for practices",
-  "repository" : "https://github.com/erdemuysal/generator-basic-cmake-gtest",
+  "repository": "https://github.com/erdemuysal/generator-basic-cmake-gtest",
   "license": "MIT",
   "files": [
     "generators"
