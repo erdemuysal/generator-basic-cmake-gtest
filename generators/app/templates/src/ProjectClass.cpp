@@ -1,5 +1,1 @@
-
-class <%= projectName %> {
-public:
-
-};
+#include "<%= projectName %>.h"

@@ -53,6 +53,16 @@ module.exports = class extends Generator {
 			this.destinationPath(`src/${this.project.name}.cpp`),
 			{projectName: this.project.name}
 		);
+		this.fs.copyTpl(
+			this.templatePath("src/ProjectClass.h"),
+			this.destinationPath(`src/${this.project.name}.h`),
+			{
+			 projectName: this.project.name,
+			 projectUpperSnakeCase: this.project.name.replace(/([A-Z]+)/g, "_$1")
+			 										 .replace(/^_/g, "")
+			 										 .toUpperCase()
+			}
+		);
 	}
 
 	install() {
