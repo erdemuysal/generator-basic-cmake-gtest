@@ -14,6 +14,6 @@
     "googletest"
   ],
   "dependencies": {
-    "yeoman-generator": "^4.2.0"
+    "yeoman-generator": "^5.8.0"
   }
 }
